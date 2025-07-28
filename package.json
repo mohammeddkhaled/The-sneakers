@@ -1,7 +1,7 @@
 {
   "scripts": {
     "tailwind": "@tailwindcss/cli -i ./input.css -o ./output.css --watch",
-    "tailwind-minify":"@tailwindcss/cli -i ./input.css -o ./output.css --watch --minify"
+    "tailwind-minify": "@tailwindcss/cli -i ./input.css -o ./output.css --watch --minify"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
@@ -10,6 +10,8 @@
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.14",
     "tailwindcss": "^4.1.11"
   }
 }

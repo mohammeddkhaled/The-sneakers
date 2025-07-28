@@ -1,3 +1,5 @@
+const { plugin } = require('postcss');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./*.{html,js}"],
@@ -13,5 +15,12 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: ["prettier-plugin-tailwindcss"],
+
+  //dynamic styling  
+  // plugins:[
+  //   plugin(function({addVariant}){
+  //     addVariant("open-menu", ".open-menu &");
+  //   }),
+  // ]
 }
