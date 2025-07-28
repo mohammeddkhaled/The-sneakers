@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "tailwind": "@tailwindcss/cli -i ./input.css -o ./output.css --watch",
+    "tailwind-minify":"@tailwindcss/cli -i ./input.css -o ./output.css --watch --minify"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwind": "^4.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
+  }
+}
